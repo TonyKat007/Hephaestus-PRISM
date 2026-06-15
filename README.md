@@ -107,7 +107,7 @@ print("=" * 50)
 
 ### Question Samples
 
-aLLoyM was trained using a standardized prompt template for
+AlloyM was trained using a standardized prompt template for
 consistency, which may make it sensitive to variations in prompt formulation. Users should
 be aware that rephrasing questions or changing the input format may affect prediction qual-
 ity. We encourage the community to experiment with different prompting approaches and
@@ -133,7 +133,7 @@ Apache 2.0
 If you use this model, please cite:
 
 ```bibtex
-@misc{aLLoyM,
+@misc{AlloyM,
   title=,
   author=,
   year=,
