@@ -1,0 +1,2 @@
+Note: Training and validation datasets are the same file.
+Original path: /home/yoikawa/src/phase_LLM/aLLoyM/dataset/raw/split_by_file/training/combined.jsonl
