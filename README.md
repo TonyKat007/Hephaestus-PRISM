@@ -11,16 +11,22 @@ tags:
 base_model: unsloth/Mistral-Nemo-Instruct-2407-bnb-4bit
 ---
 
-# aLLoyM: A large language model for alloy phase diagram prediction
+# Hephaestus PRISM: A LLM for alloy phase diagram prediction
 
-NEW!! Check out [our App on Huggingface Spaces](https://huggingface.co/spaces/Playingyoyo/aLLoyM/settings). You can chat with aLLoyM or interactively draw generated phase diagrams directly in your browser—no local GPU required.
+### About the Name
+This project has been updated from its original title to **Hephaestus PRISM**. 
+
+* **Hephaestus:** Named after the ancient Greek god of blacksmiths, metalworking, metallurgy, and fire. He represents the ultimate mastery over forging elemental materials into complex structures, mirroring this AI's purpose in predicting complex alloy microstructures.
+* **PRISM:** A structural acronym standing for **P**hase **R**elationship **I**nference & **S**ynthesis **M**odel. Just as a physical prism splits raw light into its component spectral colors, this model takes raw composition data and maps it across distinct thermodynamic phase boundaries.
+
+---
+
+You can chat with it or interactively draw generated phase diagrams directly in your browser—no local GPU required.
 
 <video controls autoplay muted loop width="100%">
   <source src="https://cdn-uploads.huggingface.co/production/uploads/65096d0e623330a3a51cf6aa/dhs4kI7brJ8mDtY_wamFf.qt" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
-[Our preprint on arXiv](https://www.arxiv.org/abs/2507.22558)
 
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/65096d0e623330a3a51cf6aa/zHPBs16jPVdkaeZCBCR1b.png)
 
@@ -28,7 +34,7 @@ Data used to train the model are [here](https://huggingface.co/datasets/Playingy
 
 ## Model Details
 
-- **Model Name**: aLLoyM
+- **Model Name**: Hephaestus PRISM
 - **Base Model**: unsloth/Mistral-Nemo-Instruct-2407-bnb-4bit
 - **Fine-tuning Method**: LoRA (Low-Rank Adaptation)
 - **Training Framework**: Unsloth
@@ -53,7 +59,7 @@ load_in_4bit = True
 print("Loading model from Hugging Face...")
 # Load model and tokenizer
 model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name='Playingyoyo/aLLoyM',
+    model_name='Playingyoyo/Hephaestus-PRISM',
     max_seq_length=max_seq_length,
     dtype=dtype,
     load_in_4bit=load_in_4bit,
@@ -105,11 +111,12 @@ print(f"\nAnswer:")
 print("=" * 50)
 print(generated_response)
 print("=" * 50)
+
 ```
 
 ### Question Samples
 
-aLLoyM was trained using a standardized prompt template for
+Hephaestus PRISM was trained using a standardized prompt template for
 consistency, which may make it sensitive to variations in prompt formulation. Users should
 be aware that rephrasing questions or changing the input format may affect prediction qual-
 ity. We encourage the community to experiment with different prompting approaches and
@@ -125,17 +132,12 @@ share effective strategies.
 - **LoRA Rank**: 16
 - **LoRA Alpha**: 16
 - **Target Modules**: q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj
-
 ## License
-
 Apache 2.0
-
 ## Citation
-
 If you use this model, please cite:
-
 ```bibtex
-@misc{aLLoyM,
+@misc{Hephaestus_PRISM,
   title=,
   author=,
   year=,
