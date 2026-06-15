@@ -28,7 +28,7 @@ You can chat with it or interactively draw generated phase diagrams directly in 
   Your browser does not support the video tag.
 </video>
 
-![image/png](https://cdn-uploads.huggingface.co/production/uploads/65096d0e623330a3a51cf6aa/zHPBs16jPVdkaeZCBCR1b.png)
+![Hephaestus PRISM Flowchart](PRISM-Pipeline-Flowchart.png)
 
 Data used to train the model are [here](https://huggingface.co/datasets/Playingyoyo/aLLoyM-dataset).
 
