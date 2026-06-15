@@ -11,9 +11,9 @@ tags:
 base_model: unsloth/Mistral-Nemo-Instruct-2407-bnb-4bit
 ---
 
-# aLLoyM: A large language model for alloy phase diagram prediction
+# AlloyM: A LLM for alloy phase diagram prediction
 
-NEW!! Check out [our App on Huggingface Spaces](https://huggingface.co/spaces/Playingyoyo/aLLoyM/settings). You can chat with aLLoyM or interactively draw generated phase diagrams directly in your browser—no local GPU required.
+You can chat with it or interactively draw generated phase diagrams directly in your browser—no local GPU required.
 
 <video controls autoplay muted loop width="100%">
   <source src="https://cdn-uploads.huggingface.co/production/uploads/65096d0e623330a3a51cf6aa/dhs4kI7brJ8mDtY_wamFf.qt" type="video/mp4">
@@ -28,7 +28,7 @@ Data used to train the model are [here](https://huggingface.co/datasets/Playingy
 
 ## Model Details
 
-- **Model Name**: aLLoyM
+- **Model Name**: AlloyM
 - **Base Model**: unsloth/Mistral-Nemo-Instruct-2407-bnb-4bit
 - **Fine-tuning Method**: LoRA (Low-Rank Adaptation)
 - **Training Framework**: Unsloth
